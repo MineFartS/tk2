@@ -3,7 +3,7 @@ from typing import Callable, Any, TYPE_CHECKING
 if TYPE_CHECKING:
     from tkinter import Widget as _Widget
     from .page import Page
-    from ..db import Key
+    from dbwraps.ring import Key
 
 class Widget(dict[str, Any]):
 
